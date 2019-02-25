@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose src/test/*.test.js"
+    "test": "jest --verbose ./app/*.test.js"
   },
   "keywords": [],
   "author": "",

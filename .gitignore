@@ -1,3 +1,8 @@
+# Miscellaneous
+.idea
+.DS_Store
+package-lock.json
+
 # Logs
 logs
 *.log
@@ -56,6 +61,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -70,7 +76,10 @@ typings/
 .vuepress/dist
 
 # Serverless directories
-.serverless
+.serverless/
 
 # FuseBox cache
 .fusebox/
+
+# DynamoDB Local files
+.dynamodb/
